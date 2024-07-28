@@ -52,7 +52,7 @@ const LoginForm = () => {
             setError(data?.error);
           }
           if (data.success) {
-            setSuccess(data.success);
+            setSuccess(data?.success);
           }
         } else {
           setError("Unexpected response from the server");
